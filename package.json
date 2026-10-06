@@ -25,6 +25,7 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
@@ -46,5 +47,13 @@
     "permissions",
     "scaffold",
     "drizzle"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neerajkumarSenior/astro-module.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neerajkumarSenior/astro-module/issues"
+  },
+  "homepage": "https://github.com/neerajkumarSenior/astro-module#readme"
 }
